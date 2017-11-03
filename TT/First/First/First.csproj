@@ -76,6 +76,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Login.html" />
+    <Content Include="Login_Asha.html" />
     <Content Include="Menu.html" />
     <Content Include="Signup.html" />
     <Content Include="Test.html" />
