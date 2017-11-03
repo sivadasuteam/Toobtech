@@ -85,6 +85,7 @@
     <Content Include="Welcome.html" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="prasanna.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <PropertyGroup>
