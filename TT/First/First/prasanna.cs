@@ -7,5 +7,10 @@ namespace First
 {
     public class prasanna
     {
+
+        public int test()
+        {
+            return 1;
+        }
     }
 }
