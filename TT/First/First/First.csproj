@@ -79,15 +79,14 @@
     <Content Include="Login.html" />
     <Content Include="Login_Asha.html" />
     <Content Include="Menu.html" />
-    <Content Include="signin_prasanna.html" />
     <Content Include="Signup.html" />
+    <Content Include="Srikanth_HtmlPage1.html" />
     <Content Include="Test.html" />
     <Content Include="trivago.html" />
     <Content Include="Web.config" />
     <Content Include="Welcome.html" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="prasanna.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <PropertyGroup>
