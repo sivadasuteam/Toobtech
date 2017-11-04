@@ -87,6 +87,7 @@
     <Content Include="Welcome.html" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BasicPrograms_Asha.cs" />
     <Compile Include="prasanna.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
