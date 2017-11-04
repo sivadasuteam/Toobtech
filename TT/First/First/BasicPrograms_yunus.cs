@@ -12,6 +12,7 @@ namespace First
         {
             int a = 10, b = 5;
             int result = a - b;
+
             Console.WriteLine(result);
         }
         public int Mul()
