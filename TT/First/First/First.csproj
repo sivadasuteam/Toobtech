@@ -87,6 +87,7 @@
     <Content Include="Welcome.html" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BasicPrograms1.cs" />
     <Compile Include="BasicPrograms_Asha.cs" />
     <Compile Include="BasicPrograms_Prasanna.cs" />
     <Compile Include="BasicPrograms_Srikanth.cs" />
