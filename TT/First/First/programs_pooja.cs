@@ -5,7 +5,7 @@ using System.Web;
 
 namespace First
 {
-    public class programs_pooja
+    public class exerciselogics
     {
         public static void Main()
         {
