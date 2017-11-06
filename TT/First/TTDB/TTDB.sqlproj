@@ -60,5 +60,6 @@
   </ItemGroup>
   <ItemGroup>
     <Build Include="tbl_Product.sql" />
+    <Build Include="Sp_Add.sql" />
   </ItemGroup>
 </Project>
