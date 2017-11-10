@@ -1,11 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.27004.2006
+VisualStudioVersion = 15.0.27004.2005
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "First", "First\First.csproj", "{512892FE-A67E-434E-9DEF-997178909949}"
-EndProject
-Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "TTDB", "TTDB\TTDB.sqlproj", "{159B400D-2C6D-4C05-A07A-FC63695D505A}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinForm", "WinForm\WinForm.csproj", "{742FC79D-7D40-4425-89F7-598FBAA9D4CD}"
 EndProject
@@ -19,12 +17,6 @@ Global
 		{512892FE-A67E-434E-9DEF-997178909949}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{512892FE-A67E-434E-9DEF-997178909949}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{512892FE-A67E-434E-9DEF-997178909949}.Release|Any CPU.Build.0 = Release|Any CPU
-		{159B400D-2C6D-4C05-A07A-FC63695D505A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{159B400D-2C6D-4C05-A07A-FC63695D505A}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{159B400D-2C6D-4C05-A07A-FC63695D505A}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
-		{159B400D-2C6D-4C05-A07A-FC63695D505A}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{159B400D-2C6D-4C05-A07A-FC63695D505A}.Release|Any CPU.Build.0 = Release|Any CPU
-		{159B400D-2C6D-4C05-A07A-FC63695D505A}.Release|Any CPU.Deploy.0 = Release|Any CPU
 		{742FC79D-7D40-4425-89F7-598FBAA9D4CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{742FC79D-7D40-4425-89F7-598FBAA9D4CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{742FC79D-7D40-4425-89F7-598FBAA9D4CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
