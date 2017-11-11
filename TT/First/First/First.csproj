@@ -93,6 +93,7 @@
     <Compile Include="BasicPrograms_yunus.cs" />
     <Compile Include="prasanna.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Students_sri.cs" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
