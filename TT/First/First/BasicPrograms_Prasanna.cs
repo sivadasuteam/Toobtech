@@ -55,7 +55,8 @@ namespace First
             {
                 double prod = num1 * num2;
                 Console.WriteLine("\n Result : ({0}) X ({1}) = {2}", num1, num2, prod);
-            } 
+            }
+
             void divide()
             {
                 double qt = num1 / num2;
