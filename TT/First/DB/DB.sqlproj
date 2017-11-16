@@ -60,5 +60,6 @@
   </ItemGroup>
   <ItemGroup>
     <Build Include="ApplicationRole1.sql" />
+    <Build Include="ApplicationRole1_1.sql" />
   </ItemGroup>
 </Project>
