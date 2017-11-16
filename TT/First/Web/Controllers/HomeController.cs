@@ -40,6 +40,7 @@ namespace Web.Controllers
 
             return res;
         }
+        
         public student UserDetails(student std  )
         {
             //
