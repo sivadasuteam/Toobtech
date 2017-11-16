@@ -1,4 +1,5 @@
-﻿using System;
+﻿using MyNamespace;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -25,6 +26,26 @@ namespace Web.Controllers
             ViewBag.Message = "Your contact page.";
 
             return View();
+        }
+        public ActionResult Registration()
+        {
+            ViewBag.Message = "Your Registration page.";
+
+            return View();
+        }
+        public bool CheckUser(string uid,string pwd)
+        {
+            register_yunus obj = new register_yunus();
+            bool res = obj.IsValid(uid, pwd);
+
+            return res;
+        }
+        
+        public student UserDetails(student std  )
+        {
+            //
+            student obj = std;
+            return obj;
         }
     }
 }
