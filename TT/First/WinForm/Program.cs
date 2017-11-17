@@ -16,11 +16,10 @@ namespace WinForm
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Student_sai());
+           // Application.Run(new Student_sai());
         }
     }
 
     
-    {
-    }
+   
 }

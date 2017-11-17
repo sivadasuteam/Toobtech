@@ -154,6 +154,7 @@
   <ItemGroup>
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\TT.css" />
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
@@ -190,6 +191,8 @@
     <Content Include="Views\Prasanna\Index.cshtml" />
     <Content Include="Views\Prasanna\New.cshtml" />
     <Content Include="Views\Home\Registration.cshtml" />
+    <Content Include="Views\Home\Bootstrap.cshtml" />
+    <Content Include="Views\Home\Bootstrap1.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

@@ -1,0 +1,18 @@
+﻿body {
+
+}
+
+.btn {
+  
+}
+
+button {
+    color: red;
+    background-color: yellow;
+    border: dotted medium;
+}
+#btnSubmit {
+    /*color: aqua;
+    background-color: yellow;
+    border: dotted medium;*/
+}

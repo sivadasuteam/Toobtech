@@ -35,10 +35,10 @@ namespace Web.Controllers
         }
         public bool CheckUser(string uid, string pwd)
         {
-            Registration obj = new Registration();
-            bool res = obj.IsValid(uid, pwd);
+            //Registration obj = new Registration();
+            //bool res = obj.IsValid(uid, pwd);
 
-            return res;
+            return false;
         }
         public student UserDetails(student std)
         {
@@ -47,17 +47,16 @@ namespace Web.Controllers
             return obj;
         }
 
-        internal class Registration
+        public ActionResult Bootstrap()
         {
-            public Registration()
-            {
-            }
-
-            internal bool IsValid(string uid, string pwd)
-            {
-                throw new NotImplementedException();
-            }
+            return View();
         }
+        public ActionResult Bootstrap1()
+        {
+            return View();
+        }
+
+
     }
 }
         
