@@ -1,4 +1,5 @@
-﻿using System;
+﻿using StudentRegistrationPage;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -26,5 +27,40 @@ namespace Web.Controllers
 
             return View();
         }
+        public ActionResult Register()
+        {
+            ViewBag.Message = "Your registration page.";
+
+            return View();
+        }
+        public bool CheckUser(string uid, string pwd)
+        {
+            //Registration obj = new Registration();
+            //bool res = obj.IsValid(uid, pwd);
+
+            return false;
+        }
+        public student UserDetails(student std)
+        {
+            //
+            student obj = std;
+            return obj;
+        }
+
+        public ActionResult Bootstrap()
+        {
+            return View();
+        }
+        public ActionResult Bootstrap1()
+        {
+            return View();
+        }
+
+
     }
 }
+        
+
+
+
+   
