@@ -227,11 +227,18 @@
     function registerUser() {
         var usrid = $("#txtUid").val();
         var pwd = $("#txtPwd").val();
-        var obj = {};
-        obj.UId = usrid;
-        obj.Pwd = pwd;
-        alert(usrid)
+        var add = $("#personaladdress").val();
+        var phno = $("#mobileno").val();
 
+        var obj = {};
+        obj.uid = usrid;
+        obj.Pwd = pwd;
+        obj.Add = personaladdress;
+        obj.Phno = mobileno;
+        alert(usrid)
+        alert(pwd)
+        alert(personaladdress)
+        alert(mobileno)
         $.ajax({
             url: "/home/UserDetails",
             data: obj,

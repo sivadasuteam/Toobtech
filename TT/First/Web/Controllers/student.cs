@@ -4,12 +4,14 @@
     {
         public string UId { get; set; }
         public string Pwd { get; set; }
+        public string Add { get; set; }
+        public string Phno { get; set; }
 
-        public bool Register(student st)
-        {
-            //
+        //public bool Register(student st)
+        //{
+        //    //
 
-            return false;
-        }
+        //    return false;
+        //}
     }
 }

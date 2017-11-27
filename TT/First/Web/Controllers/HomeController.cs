@@ -33,10 +33,10 @@ namespace Web.Controllers
 
             return View();
         }
-        public bool CheckUser(string uid,string pwd)
+        public bool CheckUser(string uid,string pwd, string address, string phno)
         {
             register_yunus obj = new register_yunus();
-            bool res = obj.IsValid(uid, pwd);
+            bool res = obj.IsValid(uid, pwd,address,phno);
 
             return res;
         }
@@ -45,6 +45,7 @@ namespace Web.Controllers
             //
             student obj = std;
             return obj;
+            
         }
     }
 }
