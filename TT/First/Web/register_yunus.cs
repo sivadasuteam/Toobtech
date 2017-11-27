@@ -19,9 +19,6 @@ namespace Web
             return res;
         }
 
-        internal bool IsValid(string uid, string pwd, string add, string phno)
-        {
-            throw new NotImplementedException();
-        }
+       
     }
 }

@@ -1,7 +1,6 @@
+using StudentRegistrationPage;
 
-﻿namespace MyNamespace
-
-﻿namespace StudentRegistrationPage
+namespace StudentRegistrationPage
 
 {
     public class student
@@ -22,11 +21,5 @@
 }
 
 
-        public bool Register(student st)
-        {
-            
+      
 
-            return false;
-        }
-    }
-}
