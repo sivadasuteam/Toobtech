@@ -1,5 +1,4 @@
 
-﻿using MyNamespace;
 ﻿using StudentRegistrationPage;
 using System;
 using System.Collections.Generic;
@@ -43,7 +42,7 @@ namespace Web.Controllers
 
             return res;
         }
-        public student UserDetails(student std  )
+        
 
         public ActionResult Register()
         {
@@ -66,7 +65,7 @@ namespace Web.Controllers
             return obj;
 
             
-        }
+        
 
         }
 
