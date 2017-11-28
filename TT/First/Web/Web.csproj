@@ -146,10 +146,7 @@
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\PrasannaController.cs" />
     <Compile Include="Controllers\student.cs" />
-
     <Compile Include="Controllers\yunus_Controller.cs" />
-
-
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -196,15 +193,13 @@
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Views\Prasanna\Index.cshtml" />
     <Content Include="Views\Prasanna\New.cshtml" />
-
     <Content Include="Views\yunus_\yunuscode.cshtml" />
     <Content Include="Views\yunus_\index2.cshtml" />
     <Content Include="Views\Home\Registration.cshtml" />
-
     <Content Include="Views\Home\Registration.cshtml" />
     <Content Include="Views\Home\Bootstrap.cshtml" />
     <Content Include="Views\Home\Bootstrap1.cshtml" />
-
+    <Content Include="Views\yunus_\Mypage.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
